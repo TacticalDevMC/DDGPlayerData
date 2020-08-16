@@ -1,0 +1,20 @@
+prefix: "&c&lD&f&lD&c&lG &8● "
+
+using-mysql: true
+
+auto-saving: true
+
+mysql:
+  host: ""
+  user: ""
+  password: ""
+  databaseName: ""
+  port: 3306
+  table_prefix: "ddg_"
+
+mongo:
+  uri: ""
+  databaseName: "DDGPlayerData"
+  collections:
+    playerData: "PlayerData"
+    settings: "settings"

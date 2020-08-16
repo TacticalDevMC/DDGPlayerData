@@ -1,0 +1,36 @@
+name: DDGPlayerData
+version: ${project.version}
+main: nl.tacticaldev.ddgplayerdata.DDGPlayerData
+authors: [TacticalDev]
+description: De DDGPlayerData plugin
+commands:
+  online:
+    description: "Get the online time of a player"
+    aliases:
+      - timeonline
+      - playertime
+      - ptime
+      - ponline
+      - onlinetime
+  lastlocation:
+    description: "Get the lastlocation of a player"
+    aliases:
+      - lastl
+      - ll
+      - llocation
+      - lastloc
+      - last
+  fly:
+    description: "Fly command"
+  convert:
+    description: "Convert db data to file"
+    aliases:
+      - convertdata
+      - dataconvert
+  gm:
+    description: "Get gamemode"
+    aliases:
+      - datagm
+      - gamemodedata
+      - datagamemode
+      - gmdata
