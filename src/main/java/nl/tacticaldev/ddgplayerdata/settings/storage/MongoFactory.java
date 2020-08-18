@@ -44,8 +44,6 @@ public class MongoFactory {
         return collection;
     }
 
-    // mongodb+srv://TacticalDev:jorande2de@ddgplayerdata.qysaf.azure.mongodb.net/test
-
     public static DB getDatabase() {
         if (database == null) {
             database = getMongo().getDB(config.getString("mongo.databaseName"));
